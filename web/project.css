@@ -1,0 +1,105 @@
+body{
+	background: url(images/classroom1.png) no-repeat center center ;
+	background-size: cover;
+	
+	
+}
+nav{
+	background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1{
+	font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-family: 'Acme', sans-serif;
+color: white;
+margin-left: 40px;
+}
+#ig{
+	border-radius: 30%;
+	top: 600px;
+	margin-left: 900px;
+	height: 250px;
+}
+#ig2{
+	border-radius: 30%;
+	top: -5px;
+	margin-left: 40px;
+    margin-top: -280px;
+    height:250px;
+}
+#ig3{
+	border-radius: 30%;
+	top: -5px;
+	margin-left: 470px;
+    margin-top: -320px;
+    height:250px;
+}
+.cd{
+	border: 2px solid red;
+}
+.border{
+	border:3px red solid;
+	margin: 200px;
+}
+#b1{
+	padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 30px;
+}
+#ima{
+	margin-top: -100px;
+	margin-left: 50px;
+}
+#but{
+	margin-left: 150px;
+	margin-top: -20px;
+	font-size: 60px;
+}
+#but1{
+	padding: 20px 45px;
+	font-size: 25px;
+	background: #228b22;
+	color: #fff;
+}
+#but2{
+	padding: 20px 45px;
+	font-size: 25px;
+	margin-left: 430px;
+	margin-top: -180px;
+	background: #228b22;
+	color: #fff;
+}
+#but3{
+	padding: 20px 45px;
+	font-size: 25px;
+	margin-left: 860px;
+	margin-top: -350px;
+	background: #228b22;
+	color: #fff;
+}
+#but3:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000; 
+}
+#but2:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000; 
+}
+#but1:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000; 
+}
+

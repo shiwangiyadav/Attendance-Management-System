@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Feb, 2020, 1:27:29 PM
+    Author     : Saumya
+*/
+
+.grid-container {
+  display: grid;
+  grid-template-areas:'left left middle middle right right'; 
+  margin-top: -200px;
+  height: 200px;
+  /* grid-column-gap: 10px; - if you want gap between the columns */
+}
+.left,
+.middle,
+.right {
+  padding: 100px;
+  height: 170px; /* Should be removed. Only for demonstration */
+}
+.left {
+  grid-area: left;
+}
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+}
+
+/* Style the right column */
+.right {
+  grid-area: right;
+}
+#a1{
+	margin-top: -60px;
+	margin-left: 40px;
+}		
+#a2{
+	margin-top: 20px;
+}
+#a3{
+	margin-top: 20px;
+	margin-left: 75px;
+
+}
+#a4{
+	margin-top: -60px;
+	margin-left: 110px;
+}
+#a5{
+	margin-top: 20px;
+	margin-left: 90px;
+}
+
+
+
+
